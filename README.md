@@ -8,15 +8,11 @@
 
 ## Installation
 
-+ Install dependencies: 
++ Install dependencies:
 	+ [Node.js Installer](http://nodejs.org/)
 	+ Install Gulp globally - `npm install gulp`
-
-
 + Clone and cd into the repo
 	+ `git clone https://github.com/masad83/frontend-gulp-starter.git`
-
-
 + install Gulp task dependencies
 	+ `npm install`
 
