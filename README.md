@@ -24,6 +24,8 @@
 * Compile Sass Files
 * Add Autoprefixer to your CSS
 * Optimizing(minification and concatenation) CSS and JavaScript files.
+* Optimizing Images
 * Adding Sourcemaps for easier debugging (Optional)
+* RTL Support (Automaticly create RTL style) (ToDO)
 * Watching files for changes.
 * Live-reloading with Browser Sync

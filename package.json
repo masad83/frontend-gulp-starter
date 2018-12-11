@@ -1,0 +1,35 @@
+{
+  "name": "frontend-gulp-starter",
+  "version": "1.0.0",
+  "description": "FrontEnd Enviroment Starter Kit using Gulp ",
+  "keywords": [
+    "gulp",
+    "FrontEnd",
+    "StarterKit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masad83/frontend-gulp-starter.git"
+  },
+  "main": "gulpfile.js",
+  "engines": {
+    "node": ">=6.9.5 <7"
+  },
+  "scripts": {
+    "build": "gulp",
+    "prod":  "gulp prod",
+    "watch": "gulp watch",
+    "serve": "gulp serve"
+  },
+  "author": "Mohammad Asad",
+  "devDependencies": {
+    "gulp": "4.0.0",
+    "gulp-sass": "4.0.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "browser-sync": "2.24.4",
+    "gulp-concat": "2.6.1",
+    "gulp-rename": "1.3.0",
+    "gulp-uglify": "3.0.0",
+    "gulp-imagemin": "^4.1.0"
+  }
+}
