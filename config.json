@@ -1,9 +1,11 @@
 {
+  
   "destination": {
-    "js": "app-assets/js",
-    "css": "app-assets/css/",
-    "css_rtl": "app-assets/css-rtl",
-    "imgs":"app-assets/imgs"
+    "path":"dist",
+	"js": "dist/js",
+    "css": "dist/css/",
+    "css_rtl": "dist/css-rtl",
+    "imgs":"dist/imgs"
   },
   "source": {
     "path": "src",

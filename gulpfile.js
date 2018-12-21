@@ -58,9 +58,10 @@ gulp.task('reload', function() {
 // Run server on source path
 gulp.task('serve', function() {
   browserSync({
-    server: config.source.path
+    server: config.destination.path
   });
-
+  gulp.watch(config.source.sass, gulp.task('compile-sass'));
+  //gulp.task('watch')
 });
 
 // Compile-sass Task.
@@ -78,7 +79,7 @@ gulp.task('compile-sass', function() { //ToDo: add option to compress Sass Resul
 });
 
 //Gulp minify-css
-gulp.task('watch', function() {
+gulp.task('minify-css', function() {
 	
 	//ToDo: Create minify script (read all css files in arry compress them in one file) 
 	
@@ -105,6 +106,7 @@ gulp.task('img-compress', function() {
 // Rerun the task when a file changes
 gulp.task('watch', function() {
     gulp.watch(config.source.sass, gulp.task('compile-sass'));
+    gulp.watch(config.source.sass, gulp.task('img-compress'));
     //gulp.watch(source.styles.site.watch, gulp.task('scripts:site'));
  
 });
